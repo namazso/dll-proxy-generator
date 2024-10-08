@@ -21,3 +21,7 @@ Generate a proxy dll for arbitrary dll, while also loading a user-defined second
 -h, --help                         Print help
 -V, --version                      Print version
 ```
+
+## Credits
+
+Thanks to [@mrexodia](https://github.com/mrexodia) for the [target dll trick](https://github.com/mrexodia/perfect-dll-proxy/)
