@@ -22,7 +22,7 @@ jobs:
           EXTRA_FILES: "README.md LICENSE"
           UPLOAD_MODE: none
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Binary
           path: |
