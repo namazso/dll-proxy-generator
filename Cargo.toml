@@ -1,0 +1,11 @@
+[package]
+name = "dll-proxy-generator"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+goblin = "0.8"
+scroll = "0.12"
+scroll_derive = "0.12"
