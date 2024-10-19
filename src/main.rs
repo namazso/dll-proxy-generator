@@ -224,7 +224,7 @@ fn main() {
         assert_eq!(exports.len(), export_data.export_name_pointer_table.len());
 
         for (idx, name) in exports.iter().enumerate() {
-            forward_names[idx] = name.to_string();
+            forward_names[export_data.export_ordinal_table[idx] as usize] = name.to_string();
             let mut name_str = name.as_bytes().to_vec();
             name_str.push(0);
             let name_offs = buf.len();
